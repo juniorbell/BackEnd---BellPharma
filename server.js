@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: 'localhost',       
   user: 'root',     
-  password: 'Beatriz123/',   // Sua senha do MySQL
-  database: 'bellpharma'    // Nome do seu banco de dados
+  password: 'Beatriz123/',  
+  database: 'bellpharma'    
 });
 
 db.connect(err => {
